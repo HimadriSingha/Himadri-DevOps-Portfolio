@@ -1,7 +1,6 @@
 import React from 'react';
 import BG from './../assets/intro4.jpeg';
-import profile from './../assets/Himadri.png';
-import Contact from './Contact';
+import profile from './../assets/SINGHA.jpg';
 
 const ProfilePage = ({ scrollToSection, contactRef }) => {
     return (
