@@ -36,14 +36,14 @@ function Contact() {
 
   return (
     <div
-      className="w-full bg-fixed bg-cover bg-center p-10"
+      className="w-full bg-fixed bg-cover bg-center p-5 sm:p-10"
       style={{ backgroundImage: `url('/contact.jpg')` }}
     >
-      <div className="bg-white p-8 rounded-lg shadow-md w-1/2 mx-auto">
-        <h2 className="text-2xl font-bold mb-4 text-center">Contact Me</h2>
+      <div className="bg-white p-6 sm:p-8 rounded-lg shadow-md w-full sm:w-3/4 lg:w-1/2 mx-auto">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-center">Contact Me</h2>
 
-        <div className="grid md:grid-cols-2 justify-between gap-8">
-          <form onSubmit={handleSubmit}>
+        <div className="flex flex-col lg:flex-row justify-between gap-8">
+          <form onSubmit={handleSubmit} className="w-full lg:w-1/2">
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
                 Name
@@ -87,13 +87,13 @@ function Contact() {
 
             <button
               type="submit"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto"
             >
               Send
             </button>
           </form>
 
-          <div className="mt-4">
+          <div className="mt-4 lg:mt-0 w-full lg:w-1/2 text-center lg:text-left">
             <p className="text-gray-800">Feel free to contact me:</p>
             <p className="text-gray-800">Phone: +91 7683823914</p>
             <p className="text-gray-800">Email: himadrisingha2001@gmail.com</p>
