@@ -8,7 +8,7 @@ function About() {
         <div>
             <h2 className="text-2xl font-bold mb-4">About</h2>
             <ul className=' list-disc'>
-            <li class="text-gray-800">DevOps Engineer with 2.5 years of experience</li>
+            <li class="text-gray-800">DevOps Engineer with 1+ year of experience</li>
             <li class="text-gray-800">Worked with Software Development Life Cycle (SDLC) and agile methodologies</li>
             <li class="text-gray-800">Expertise in Terraform and Configuration files</li>
             <li class="text-gray-800">Also worked with Linux,AWS,AZURE,Shell Scripting,Ansible YAML</li>
