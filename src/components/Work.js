@@ -11,15 +11,15 @@ function WorkExperience() {
         </div> */}
         <div>
           <div className='flex items-center gap-4'>
-          <h3 className="text-xl font-bold mb-2">Aravina Infomedia Pvt. Ltd</h3>
-          <p className="text-gray-800">- June-2022 to Present, Bhubaneswar, India</p>
+          <h3 className="text-xl font-bold mb-2">Bariflo Cybernetics Pvt. Ltd</h3>
+          <p className="text-gray-800">- November-2023 to Present, Bhubaneswar, India</p>
           </div>
           <h4 className="text-gray-800 font-bold text-lg">DevOps - Engineer</h4>
         </div>
       </div>
 
       <ul className="list-disc px-8">
-        <li className="text-gray-800">Working as a Jr. DevOps Engineer</li>
+        <li className="text-gray-800">Working as a DevOps Engineer</li>
         <li className="text-gray-800">Responsible for handling and Managing the CI/CD work and also handles the docker files and scripts for automation</li>
         <li className="text-gray-800">Written Dockerfiles for many services which were used in the organization and also written docker-compose that builds all the images and pushed to Amazon ECR & Azure container registry</li>
         <li className="text-gray-800">Creating snapshots and amazon machine images (AMIs) of the instances for backup and creating clone instances</li>
