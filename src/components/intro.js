@@ -33,8 +33,7 @@ const ProfilePage = ({ scrollToSection, contactRef }) => {
                                 >
                                     Hire Me
                                 </a>
-                                <a className="mt-2 bg-cyan-600 p-2 px-4 cursor-pointer text-white" href="https://drive.google.com/file/d/1NqI_7TKabwaZlDRro7o5ICbCUtyBV7b7/view?usp=drivesdk
-
+                                <a className="mt-2 bg-cyan-600 p-2 px-4 cursor-pointer text-white" href="https://drive.google.com/file/d/1Sv3bXKpIzDZkJdFwzqGakiOqJfTfJyjN/view?usp=drive_link
 " target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                                     Download CV
                                 </a>
